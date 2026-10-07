@@ -3,3 +3,9 @@
     overflow-x: auto;
     gap:1pr;
 }
+
+.Parish,.Italy,.Spain,.Japan,.Germany {
+    border: 5px solid black;
+    height: 50px;
+    width: 50px;
+}
