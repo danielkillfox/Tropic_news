@@ -1,9 +1,21 @@
+/*-------------------------Corusell---------------------*/
+
 .Corusell{
     display: flex;
     overflow-x: auto;
     gap:50px;
     scroll-snap-type: x mandatory;
 }
+
+&::scroll-button(left) {
+    content: "⬅" / "Scroll Left";
+}
+
+&::scroll-button(right) {
+    content: "⮕" / "Scroll right";
+}
+
+/*----------------------Cards---------------------*/
 
 .Parish,.Italy,.Spain,.Japan,.Germany {
     border: 5px solid black;
